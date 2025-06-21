@@ -313,16 +313,29 @@ Description: Homework 2:
                         </tr>
                         <tr>
                             <td class="td1"><label for="range">How do you feel at the time of this visit?<br/>(Rate from 1-10)</label></td>
-                            <td>
+                            <td align="center">&nbsp;1(worst)&nbsp;
                                 <input
                                     type="range"
                                     name="range"
                                     id="range"
                                     min="1"
                                     max="10"
-                                    value="3"
+                                    list="range-slider"
                                     />
+                                    10(Great!)&nbsp;<br>
                                     <span id="range-slider"></span>
+                                <datalist id="range-slider">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </datalist>
                             </td>
                         </tr>
                         <tr> 
